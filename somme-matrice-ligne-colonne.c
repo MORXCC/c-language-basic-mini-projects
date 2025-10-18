@@ -9,7 +9,6 @@ int main(){
     printf("entrez le nombre des colonnes de la matrice : ");
     scanf("%d",&c);
 
-
     for(i=0;i<l;i++){
         for(j=0;j<c;j++){
             M[i][j]=1;
@@ -36,10 +35,8 @@ int main(){
         }
         printf("La somme de la ligne %d est :%d\n",j,som);
     }
-
     
-    
-
     return 0;
 
 }
+
